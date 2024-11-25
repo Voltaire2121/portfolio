@@ -116,6 +116,90 @@
   width: 500px;
   margin-top: 8px;
 }
+.mainimageright__hover {
+  cursor: pointer;
+  font-weight: bold;
+  display: flex;
+  width: 270px;
+  font-size: 18px;
+}
+.mainimageright__hovermore {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-left: 75px;
+  background-color: #332e2e;
+  color: white;
+  width: 100px;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: normal;
+  opacity: 0;
+  visibility: hidden;
+  transition:
+    opacity 0.3s ease-in,
+    visibility 0.3s ease-in;
+}
+.mainimageright__hover:hover .mainimageright__hovermore {
+  visibility: visible;
+  opacity: 1;
+}
+
+.homeprojects {
+  margin-top: 120px;
+  padding-left: 10%;
+  padding-right: 10%;
+  box-sizing: border-box;
+}
+
+.homeprojects hr {
+  display: none;
+}
+
+.homeprojects h1 {
+  color: #332e2e;
+}
+
+.homeprojects h3 {
+  color: #332e2e;
+  font-weight: normal;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.projectsquaresdiv {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.projectsquare {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 24px;
+  box-sizing: border-box;
+  justify-content: start;
+  text-align: left;
+  gap: 18px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.projectsquare:hover {
+  transform: scale(1.06);
+}
+
+.projectsquare h2 {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.projectsquare p {
+  font-size: 14px;
+}
 
 /*Responsive cose below*/
 /*
@@ -173,6 +257,13 @@
     width: 300px;
     margin-left: 0px;
   }
+  .homeprojects {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .homeprojects hr {
+    display: block;
+  }
 }
 
 @media only screen and (max-width: 999px) and (min-width: 701px) {
@@ -216,6 +307,9 @@
   .mainimageleft h1 {
     font-size: 25px;
   }
+  .mainimageright__hover {
+    width: 162px;
+  }
 }
 
 @media only screen and (min-width: 1000px) {
@@ -226,6 +320,12 @@
     padding-left: 12%;
     padding-right: 12%;
     box-sizing: border-box;
+  }
+  .projectsquare {
+    width: 24%;
+    height: 160px;
+    background-color: #332e2e;
+    color: #fff7f3;
   }
 }
 
