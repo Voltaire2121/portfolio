@@ -1,0 +1,247 @@
+.homescreen {
+  padding-bottom: 100px;
+  background-color: #fff7f3;
+  min-width: 300px;
+}
+
+.homeaboutme {
+  background-color: #d9ffb6;
+  padding: 47px;
+  color: #332e2e;
+}
+
+.homeaboutme h1 {
+  font-size: 3.8rem;
+  margin-bottom: 34px;
+  font-weight: bolder;
+}
+
+.homeaboutme h2 {
+  font-size: 1rem;
+  font-weight: lighter;
+  color: #332e2ecc;
+}
+
+.homeaboutme button,
+.homescreenbutton {
+  color: #332e2e;
+  margin-top: 34px;
+  border: 1px solid #332e2e;
+  padding: 14px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+  background-image: url('https://cdn.prod.website-files.com/5f50efa4420f363f6b5670b2/6739c0109820f5ce5a21a3b6_chevron-right%2002.svg');
+  background-position: 95%;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-color: transparent;
+}
+
+.homeaboutme button:hover,
+.homescreenbutton:hover {
+  background-color: #332e2e !important;
+  color: white;
+  transition:
+    background-color 0.5s ease,
+    color 0.5s ease;
+  background-image: url('https://cdn.prod.website-files.com/5f50efa4420f363f6b5670b2/6739c00f6ccbf2bcc188f50a_chevron-right.svg');
+}
+
+.homename {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.homenameinner {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  gap: 24px;
+}
+
+.mainimage {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.mainimageinner {
+  width: 900px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+}
+
+.mainimageinner img {
+  position: absolute;
+  width: 300px;
+  margin-left: 280px;
+}
+
+.mainimageleft {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  text-align: left;
+  padding-top: 80px;
+  box-sizing: border-box;
+}
+
+.mainimageleft hr {
+  margin-bottom: 20px;
+}
+
+.mainimageright {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 2px;
+  padding-top: 150px;
+}
+
+.mainimageright p {
+  width: 270px;
+  text-align: left;
+}
+.mainimageright hr {
+  width: 500px;
+  margin-top: 8px;
+}
+
+/*Responsive cose below*/
+/*
+ ______     _______
+|      \   |       |
+|  |\   \  |    ___|
+|  |/   /  |   |___
+|      /   |    ___|
+|  |\  \   |   |___
+|  | \  \  |       |
+|__|  \__\ |_______|
+*/
+
+@media only screen and (max-width: 700px) {
+  .homeaboutme {
+    padding: 24px;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .homeaboutme h1,
+  .homeaboutme h2 {
+    text-align: left;
+  }
+  .homeaboutme button {
+    padding-left: 24px;
+    padding-right: 30px;
+    width: fit-content;
+    box-sizing: border-box;
+    background-position: 98%;
+  }
+  .mainimageright,
+  .mainimageleft {
+    display: none;
+  }
+  .mainimage {
+    width: 100%;
+  }
+  .mainimageinner img {
+    position: relative;
+    width: 300px;
+    margin-left: 0px;
+  }
+  .mainimageinner {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .mainimageinner img {
+    position: relative;
+    width: 300px;
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 999px) and (min-width: 701px) {
+  .navigation {
+    height: 126px;
+    padding-top: 34px;
+    padding-bottom: 34px;
+    padding-left: 3%;
+    padding-right: 3%;
+    box-sizing: border-box;
+  }
+  .mainimageinner {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .mainimageinner img {
+    position: absolute;
+    width: 270px;
+    margin-left: 0px;
+  }
+  .mainimageleft {
+    width: 35%;
+    padding-top: 0px;
+  }
+  .mainimageright {
+    height: 30px;
+    padding-top: 30px;
+    box-sizing: border-box;
+    gap: 0px;
+  }
+  .mainimageright hr {
+    width: 360px;
+  }
+  .mainimageright p {
+    width: 162px;
+    font-size: 12px;
+  }
+  .mainimageleft h1 {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .navigation {
+    height: 178px;
+    padding-top: 34px;
+    padding-bottom: 34px;
+    padding-left: 12%;
+    padding-right: 12%;
+    box-sizing: border-box;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .homeaboutme h1 {
+    font-size: 2.2rem;
+    margin-bottom: 34px;
+    font-weight: bolder;
+  }
+  .homenameinner hr {
+    display: none;
+  }
+  .homenameinner h1 {
+    margin-top: 30px;
+  }
+  .mainimage {
+    margin-top: 20px;
+  }
+}
