@@ -6,7 +6,6 @@ import Menu from '@mui/material/Menu'
 import MenuItem from '@mui/material/MenuItem'
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown'
 import { useState } from 'react'
-import { styled } from '@mui/material/styles'
 
 const Navigation = () => {
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null)
@@ -17,13 +16,6 @@ const Navigation = () => {
   const handleClose = () => {
     setAnchorEl(null)
   }
-  const ColorButton = styled(Button)<ButtonProps>(() => ({
-    color: 'black',
-    backgroundColor: 'white',
-    '&:hover': {
-      backgroundColor: 'gray',
-    },
-  }))
   return (
     <div className="navigation">
       <div className="innerdiv">

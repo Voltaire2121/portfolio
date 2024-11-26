@@ -1,0 +1,42 @@
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: #332e2e;
+  color: white;
+  padding-top: 60px;
+  padding-left: 10%;
+  padding-bottom: 60px;
+}
+
+.externallinks {
+  display: flex;
+  gap: 40px;
+}
+
+.externallinks a {
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.externallinks a:hover {
+  transform: scale(1.1);
+}
+
+.internallinks {
+  display: flex;
+  margin-top: 50px;
+}
+
+.internallinks ul {
+  display: flex;
+  gap: 40px;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.internallinks li {
+  cursor: pointer;
+}
