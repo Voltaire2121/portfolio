@@ -12,6 +12,7 @@ const Footer = () => {
         <a href="https://www.youtube.com/playlist?list=PLKMZGeQnc66YDCfvaXP7XQy3W1dlOxNRm">
           Podcast
         </a>
+        <a href="./">Descarga mi CV</a>
       </div>
       <div className="internallinks">
         <ul>

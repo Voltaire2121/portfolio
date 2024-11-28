@@ -1,0 +1,55 @@
+.infiniteslider {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.infinitesliderinner {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.infinitesliderinnertrack {
+  display: flex;
+  flex-direction: row;
+  animation: scroll 15s linear infinite;
+}
+
+.infinitesliderinnertrack:hover {
+  animation-play-state: paused;
+}
+
+.infinitesliderinner::before,
+.infinitesliderinner::after {
+  background: linear-gradient(
+    to right,
+    #fff7f3 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  content: '';
+  height: 100%;
+  width: 15%;
+  z-index: 2;
+  position: absolute;
+}
+
+.infinitesliderinner::before {
+  left: 0;
+  top: 0;
+}
+
+.infinitesliderinner::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+
+.infiniteslider img {
+  width: 70px;
+  height: 70px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.infiniteslider img:hover {
+  transform: scale(1.2);
+}

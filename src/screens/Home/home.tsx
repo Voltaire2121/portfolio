@@ -3,6 +3,8 @@ import ProfilePic from '../../assets/profilepic2.webp'
 import LaptopPic from '../../assets/laptopgreen.jpeg'
 import LaptopPic2 from '../../assets/laptopblue.jpeg'
 import Footer from '../../components/Footer/footer'
+import InfiniteSlider from '../../components/InfiniteSlider/infiniteslider'
+import { TechURLs } from '../../utils/strings/technologies'
 
 const Home = () => {
   return (
@@ -60,22 +62,28 @@ const Home = () => {
         <h3>En esta sección te dejo un link a mis proyectos más recientes</h3>
         <div className="projectsquaresdiv">
           <div className="projectsquare">
-            <h2>VendorPro</h2>
-            <p>El inicio de todo... El proyecto principal de mi carrera</p>
+            <a href="https://vendorproapp.com/index.html">
+              <h2>VendorPro</h2>
+              <p>El inicio de todo... El proyecto principal de mi carrera</p>
+            </a>
           </div>
           <div className="projectsquare">
-            <h2>CRUD + Auth</h2>
-            <p>
-              Proyecto Freelance desarrollado para un tercero usando Firebase
-            </p>
+            <a href="https://bienestarintegralvital.com/">
+              <h2>CRUD + Auth</h2>
+              <p>
+                Proyecto Freelance desarrollado para un tercero usando Firebase
+              </p>
+            </a>
           </div>
           <div className="projectsquare">
             <h2>Pokemon Party</h2>
             <p>Uso de fetch combinado con herramientas varias de React</p>
           </div>
           <div className="projectsquare">
-            <h2>Proferal</h2>
-            <p>Página de internet estática con uso de HTML-CSS</p>
+            <a href="https://proferal.co/">
+              <h2>Proferal</h2>
+              <p>Página de internet estática con uso de HTML-CSS</p>
+            </a>
           </div>
         </div>
       </section>
@@ -115,14 +123,27 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <section className="technologies">
+        <hr />
+        <h1>Tecnologías ajustadas a los requerimientos del mercado laboral</h1>
+        <p>
+          Actualmente manejo con al menos dos años de experienca, las siguientes
+          tecnologías
+        </p>
+        <InfiniteSlider imgURLS={TechURLs} gap={40} />
+      </section>
       <section className="shallwe">
-        <h1>Shall We?</h1>
+        <div className="shallwe__left">
+          <h1>Final</h1>
+          <h1>mente</h1>
+        </div>
         <div className="shallwe__right">
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est esse
-            modi veniam quis corrupti, dolorum assumenda sint soluta
-            reprehenderit ullam quas explicabo, temporibus sed autem maxime
-            natus impedit ratione earum.
+            Soy ingeniero con más de 8 años de experiencia en el desarrollo de
+            software y tengo la habilidad para trabajar en equipos en español,
+            inglés e italiano, con énfasis en el desarrollo de aplicaciones web
+            y mobile utilizando los principios SOLID y fuertemente encaminado en
+            el desarrollo Frontend.
           </p>
           <button>Email me</button>
         </div>

@@ -1,5 +1,4 @@
 .homescreen {
-  padding-bottom: 100px;
   background-color: #fff7f3;
   min-width: 300px;
 }
@@ -206,6 +205,14 @@
   font-size: 14px;
 }
 
+.projectsquare a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .homemoreaboutme {
   margin-top: 5%;
 }
@@ -272,30 +279,67 @@
   border-bottom-right-radius: 150px;
 }
 
+.technologies {
+  margin-top: 140px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.technologiesimages {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 900px;
+}
+
+.technologiesimages img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.technologiesimages img:hover {
+  transform: scale(1.2);
+}
+
 .shallwe {
   background-color: #d9ffb6;
   display: flex;
   flex-direction: row;
-  margin-top: 80px;
+  align-items: center;
+  margin-top: 120px;
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
+.shallwe__left {
+  width: fit-content;
+  padding-left: 10%;
+  padding-right: 5%;
+}
+
 .shallwe__right {
-  width: 40%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.shallwe h1 {
+.shallwe__left h1 {
   font-weight: bolder;
   font-size: 120px;
-  margin-left: 10%;
-  width: 20%;
-  margin-right: 10%;
+  width: fit-content;
+  margin-right: 5%;
   line-height: 100px;
   color: #332e2e;
+  text-align: left;
 }
 
 .shallwe p {
@@ -373,9 +417,11 @@
   .homeprojects {
     padding-left: 5%;
     padding-right: 5%;
+    margin-top: 80px;
   }
   .homeprojects hr {
     display: block;
+    margin-bottom: 20px;
   }
   .projectsquare {
     width: 100%;
@@ -395,7 +441,9 @@
   .moreaboutmetop,
   .moreaboutmebottom {
     flex-direction: column;
-    padding: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
     box-sizing: border-box;
     margin-top: 10px;
   }
@@ -423,6 +471,42 @@
   .moreaboutmetop__inner p,
   .moreaboutmebottom__inner p {
     text-align: justify;
+  }
+  .technologies {
+    margin-top: 40px;
+    text-align: left;
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .technologies hr {
+    width: 100%;
+  }
+  .shallwe {
+    padding-left: 5%;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+  }
+  .shallwe__left {
+    display: flex;
+    padding-left: 0px;
+    flex-direction: row;
+  }
+  .shallwe__right {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: self-start;
+  }
+  .shallwe__left h1 {
+    font-size: 40px;
+    margin-right: 0px;
+  }
+  .shallwe p {
+    width: 95%;
+    text-align: justify;
+    margin-bottom: 20px;
   }
 }
 
@@ -473,6 +557,23 @@
   .projectsquare {
     width: 48%;
     height: 180px;
+  }
+  .projectsquare a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .projectsquare a:visited {
+    color: inherit;
+  }
+  .shallwe__left h1 {
+    font-size: 80px;
+    line-height: 90px;
+  }
+  .shallwe button {
+    width: 260px;
   }
 }
 

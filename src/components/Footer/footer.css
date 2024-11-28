@@ -1,16 +1,20 @@
 .footer {
   width: 100%;
-  height: 100px;
   background-color: #332e2e;
   color: white;
   padding-top: 60px;
   padding-left: 10%;
   padding-bottom: 60px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .externallinks {
   display: flex;
   gap: 40px;
+  flex-wrap: wrap;
 }
 
 .externallinks a {
@@ -28,6 +32,7 @@
 .internallinks {
   display: flex;
   margin-top: 50px;
+  flex-wrap: wrap;
 }
 
 .internallinks ul {
