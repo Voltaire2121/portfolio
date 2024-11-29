@@ -9,4 +9,15 @@ const TechURLs = [
   'https://seekvectors.com/files/download/Firebase%20RTDB-01.png',
 ]
 
-export { TechURLs }
+const TechStack = [
+  'Java',
+  'Android',
+  'IOs',
+  'Git/Github',
+  'Firebase',
+  'Figma',
+  'SQL',
+  'Illustrator',
+]
+
+export { TechURLs, TechStack }

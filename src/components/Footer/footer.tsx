@@ -1,6 +1,8 @@
+import { useTranslation } from 'react-i18next'
 import './footer.css'
 
 const Footer = () => {
+  const { t } = useTranslation()
   return (
     <div className="footer">
       <div className="externallinks">
@@ -12,13 +14,14 @@ const Footer = () => {
         <a href="https://www.youtube.com/playlist?list=PLKMZGeQnc66YDCfvaXP7XQy3W1dlOxNRm">
           Podcast
         </a>
-        <a href="./">Descarga mi CV</a>
+        <a href="./">{t('downloadcv')}</a>
       </div>
       <div className="internallinks">
         <ul>
-          <li>About me</li>
-          <li>Projects</li>
-          <li>email me</li>
+          <li>{t('home')}</li>
+          <li>{t('aboutme')}</li>
+          <li>{t('projects')}</li>
+          <li>{t('emailme')}</li>
         </ul>
       </div>
     </div>

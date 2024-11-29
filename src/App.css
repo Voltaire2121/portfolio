@@ -2,5 +2,9 @@
   width: 100%;
   margin: 0 auto;
   text-align: center;
-  font-family: 'Poppins';
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
 }
