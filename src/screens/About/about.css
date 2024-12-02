@@ -1,0 +1,98 @@
+.homeaboutme h2 {
+  text-align: justify;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.mainimage {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.aboutmeprogramming {
+  margin-top: 50px;
+}
+
+.aboutmeprogrammingtop {
+  width: fit-content;
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+
+.aboutmeprogramming h2 {
+  text-align: left;
+  margin-left: 40px;
+  font-size: 28px;
+}
+
+.aboutmeprogramming hr {
+  margin-left: 40px;
+}
+
+.aboutmeprogramminginner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  height: 370px;
+}
+
+.aboutmeprogramminginner__images {
+  position: relative;
+  width: 38%;
+  height: fit-content;
+  height: 370px;
+  overflow: hidden;
+}
+
+.aboutmeprogramminginner__infinite {
+  z-index: 1;
+}
+
+.aboutmeprogramminginner p {
+  width: 60%;
+  padding-left: 5%;
+  padding-right: 80px;
+  box-sizing: border-box;
+  text-align: justify;
+}
+
+.aboutmeprogramminginner__img {
+  position: absolute;
+  height: 370px;
+  left: 0;
+  width: 40%;
+  z-index: 5;
+  object-fit: none;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.aboutmestudying {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 80px;
+}
+
+.aboutmestudyingtop {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+
+.aboutmestudying h2 {
+  text-align: right;
+  font-size: 28px;
+  width: fit-content;
+}
+
+@media only screen and (max-width: 700px) {
+  .homeaboutme h2 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}

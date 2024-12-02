@@ -20,7 +20,7 @@ const Navigation = () => {
   const { changeLanguage } = useContext(AppContext) as AppContextType
 
   const handleClose = (languageParsed: string) => {
-    changeLanguage(languageParsed)
+    if (typeof languageParsed === 'string') changeLanguage(languageParsed)
     setAnchorEl(null)
   }
   return (
@@ -37,8 +37,12 @@ const Navigation = () => {
         </div>
         <div className="linkdiv">
           <ul className="linkdiv__ul">
-            <li className="linkdiv__li">{t('home')}</li>
-            <li className="linkdiv__li">{t('aboutme')}</li>
+            <Link to={'/home'} className="linkdiv__li">
+              {t('home')}
+            </Link>
+            <Link to={'/aboutme'} className="linkdiv__li">
+              {t('aboutme')}
+            </Link>
             <li className="linkdiv__li">{t('projects')}</li>
             <li className="linkdiv__li">{t('emailme')}</li>
             <hr />
