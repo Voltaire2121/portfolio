@@ -72,15 +72,15 @@
   margin-top: 40px;
   margin-bottom: 40px;
   display: flex;
-  justify-content: flex-end;
-  padding-right: 80px;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .aboutmestudyingtop {
   width: fit-content;
   display: flex;
   flex-direction: column;
-  margin-left: 40px;
+  margin-right: 80px;
   margin-bottom: 40px;
 }
 
@@ -88,6 +88,27 @@
   text-align: right;
   font-size: 28px;
   width: fit-content;
+}
+
+.aboutmestudyingbottom {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+}
+
+.aboutmestudyingbottom img {
+  margin-left: 80px;
+  height: 370px;
+  width: 40%;
+  object-fit: cover;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
+.aboutmestudyingbottom p {
+  text-align: justify;
+  padding-left: 80px;
 }
 
 @media only screen and (max-width: 700px) {

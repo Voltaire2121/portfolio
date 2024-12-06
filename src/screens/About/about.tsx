@@ -5,6 +5,7 @@ import InfiniteSlider from '../../components/InfiniteSlider/infiniteslider'
 import GamingPic1 from '../../assets/gamingpics/gaming1.jpg'
 import GamingPic2 from '../../assets/gamingpics/gaming2.jpg'
 import GamingPic3 from '../../assets/gamingpics/gaming3.jpg'
+import StudyPic from '../../assets/studiespic.png'
 
 const About = () => {
   const { t } = useTranslation()
@@ -56,6 +57,10 @@ const About = () => {
           <div className="aboutmestudyingtop">
             <h2>{t('aboutmystudies')}</h2>
             <hr />
+          </div>
+          <div className="aboutmestudyingbottom">
+            <p>{t('aboutmystudies2')}</p>
+            <img src={StudyPic} alt="" />
           </div>
           <div></div>
         </div>
