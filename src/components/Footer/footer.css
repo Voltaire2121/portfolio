@@ -45,3 +45,8 @@
 .internallinks li {
   cursor: pointer;
 }
+
+.internallinks a {
+  color: inherit;
+  text-decoration: none;
+}

@@ -116,7 +116,6 @@ const Home = () => {
           <button>{t('shallwebutton')}</button>
         </div>
       </section>
-      <Footer />
     </div>
   )
 }

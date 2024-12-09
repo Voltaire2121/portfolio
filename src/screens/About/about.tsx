@@ -5,6 +5,7 @@ import InfiniteSlider from '../../components/InfiniteSlider/infiniteslider'
 import GamingPic1 from '../../assets/gamingpics/gaming1.jpg'
 import GamingPic2 from '../../assets/gamingpics/gaming2.jpg'
 import GamingPic3 from '../../assets/gamingpics/gaming3.jpg'
+import GamingPic4 from '../../assets/gamingpics/gaming4.jpg'
 import StudyPic from '../../assets/studiespic.png'
 
 const About = () => {
@@ -34,14 +35,14 @@ const About = () => {
                   glow={false}
                   slow
                   images={[
-                    { src: GamingPic1, alt: '' },
-                    { src: GamingPic2, alt: '' },
-                    { src: GamingPic3, alt: '' },
-                    { src: GamingPic1, alt: '' },
-                    { src: GamingPic2, alt: '' },
-                    { src: GamingPic3, alt: '' },
-                    { src: GamingPic1, alt: '' },
-                    { src: GamingPic2, alt: '' },
+                    { src: GamingPic1, alt: 'crisgaming1' },
+                    { src: GamingPic3, alt: 'crisgaming2' },
+                    { src: GamingPic4, alt: 'crisgaming3' },
+                    { src: GamingPic2, alt: 'crisgaming4' },
+                    { src: GamingPic1, alt: 'crisgaming1' },
+                    { src: GamingPic3, alt: 'crisgaming2' },
+                    { src: GamingPic4, alt: 'crisgaming3' },
+                    { src: GamingPic2, alt: 'crisgaming4' },
                   ]}
                 />
               </div>

@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import './footer.css'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   const { t } = useTranslation()
@@ -18,8 +19,8 @@ const Footer = () => {
       </div>
       <div className="internallinks">
         <ul>
-          <li>{t('home')}</li>
-          <li>{t('aboutme')}</li>
+          <Link to={'/'}>{t('home')}</Link>
+          <Link to={'/aboutme'}>{t('aboutme')}</Link>
           <li>{t('projects')}</li>
           <li>{t('emailme')}</li>
         </ul>
