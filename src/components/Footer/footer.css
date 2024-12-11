@@ -41,6 +41,7 @@
   gap: 40px;
   text-decoration: none;
   list-style-type: none;
+  padding: 0;
 }
 
 .internallinks li {

@@ -2,6 +2,7 @@
   width: 100%;
   background-color: #fff7f3;
   min-width: 300px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .innerdiv {
@@ -26,6 +27,11 @@
   font-size: 18px;
 }
 
+.picturediv__pdiv p {
+  margin: 0px;
+  padding: 0px;
+}
+
 .picturediv__img {
   height: 80px;
   cursor: pointer;
@@ -41,7 +47,13 @@
   justify-content: center;
   padding-top: 20px;
   padding-bottom: 20px;
+  padding-inline: 0px;
   box-sizing: border-box;
+  margin: 0px;
+}
+
+.linkdid hr {
+  margin-inline: 0px;
 }
 
 .linkdiv__li {
