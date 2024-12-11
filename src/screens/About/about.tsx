@@ -7,9 +7,14 @@ import GamingPic2 from '../../assets/gamingpics/gaming2.jpg'
 import GamingPic3 from '../../assets/gamingpics/gaming3.jpg'
 import GamingPic4 from '../../assets/gamingpics/gaming4.jpg'
 import StudyPic from '../../assets/studiespic.png'
+import { useEffect } from 'react'
 
 const About = () => {
   const { t } = useTranslation()
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }, [])
 
   return (
     <div className="aboutme">

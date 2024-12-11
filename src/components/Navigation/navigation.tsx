@@ -23,6 +23,21 @@ const Navigation = () => {
     if (typeof languageParsed === 'string') changeLanguage(languageParsed)
     setAnchorEl(null)
   }
+
+  const WhastappLink = () => {
+    const phoneNumber = '+573005618167'
+    return (
+      <a
+        className="linkdiv__li"
+        href={`https://wa.me/${phoneNumber}?text=${encodeURIComponent(t('whatsappmessage'))}`}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        {t('emailme')}
+      </a>
+    )
+  }
+
   return (
     <div className="navigation">
       <div className="innerdiv">
@@ -43,8 +58,10 @@ const Navigation = () => {
             <Link to={'/aboutme'} className="linkdiv__li">
               {t('aboutme')}
             </Link>
-            <li className="linkdiv__li">{t('projects')}</li>
-            <li className="linkdiv__li">{t('emailme')}</li>
+            <Link to={'/home#home-projects'} className="linkdiv__li">
+              {t('projects')}
+            </Link>
+            <WhastappLink />
             <hr />
             <li className="linkdiv__li">
               <Button

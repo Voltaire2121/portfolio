@@ -98,8 +98,10 @@
 }
 
 @media only screen and (max-width: 450px) {
-  .navigation li {
+  .navigation li,
+  .navigation a {
     font-size: 12px;
+    width: 62px;
   }
   .navigation button {
     font-size: 12px !important;

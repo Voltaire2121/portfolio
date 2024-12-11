@@ -1,9 +1,10 @@
 .footer {
   width: 100%;
+  min-width: 300px;
   background-color: #332e2e;
   color: white;
   padding-top: 60px;
-  padding-left: 10%;
+  padding-inline: 10%;
   padding-bottom: 60px;
   box-sizing: border-box;
   display: flex;
@@ -49,4 +50,20 @@
 .internallinks a {
   color: inherit;
   text-decoration: none;
+}
+
+@media screen and (max-width: 700px) {
+  .footer {
+    padding-inline: 5%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .internallinks ul {
+    width: 90%;
+    gap: 10px;
+    row-gap: 30px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
 }

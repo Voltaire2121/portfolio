@@ -2,14 +2,32 @@ import './home.css'
 import ProfilePic from '../../assets/profilepic2.webp'
 import LaptopPic from '../../assets/laptopgreen.jpeg'
 import LaptopPic2 from '../../assets/laptopblue.jpeg'
-import Footer from '../../components/Footer/footer'
 import InfiniteSlider from '../../components/InfiniteSlider/infiniteslider'
 import { TechURLs } from '../../utils/strings/technologies'
 import { useTranslation } from 'react-i18next'
 import { TechStack } from '../../utils/strings/technologies'
+import { useEffect } from 'react'
+import { Link, useLocation } from 'react-router-dom'
 
 const Home = () => {
   const { t } = useTranslation()
+  const location = useLocation()
+
+  useEffect(() => {
+    const hash = location.hash
+    if (hash) {
+      const element = document.querySelector(hash)
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' })
+      }
+      return
+    }
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    })
+  }, [location])
+
   return (
     <div className="homescreen">
       <div className="homeaboutme">
@@ -49,8 +67,10 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <button className="homescreenbutton">{t('aboutmebutton')}</button>
-      <section className="homeprojects">
+      <Link to={'/aboutme'} className="homescreenbutton">
+        {t('aboutmebutton')}
+      </Link>
+      <section id="home-projects" className="homeprojects">
         <hr />
         <h1>Proyectos</h1>
         <h3>En esta sección te dejo un link a mis proyectos más recientes</h3>

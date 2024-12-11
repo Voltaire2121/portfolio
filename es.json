@@ -3,7 +3,7 @@
     "home": "Inicio",
     "aboutme": "Sobre mí",
     "projects": "Proyectos",
-    "emailme": "Email",
+    "emailme": "Contáctame",
     "welcome": "Bienvenido",
     "welcomemessage": "Te doy la bienvenida a mi portafolio, espero que este sea un espacio donde puedas apreciar de alguna manera mis habilidades como desarrollador y conocerme un poco más, disfruta tu estadía",
     "welcomebutton": "¿Te gusta lo que ves? Contáctame",
@@ -35,6 +35,7 @@
     "aboutmeprogramming": "Cristian en la programación",
     "aboutmeprogramming2": "Desde muy pequeño, gracias a que mis padres me regalaron un nintendo Family Computer a mis 6 años, desarrollé un fuerte vínculo con los videojuegos, pasión que me sigue acompañando al día de hoy, y gracias a la cual, desde muy temprano en mi vida, definí que tenía que tener algún tipo de relación con el mundo tecnológico para así poder vivir de mi pasión por el mundo virtual de una forma u otra. Este sueño que tuve hace casi 30 años ha ido evolucionando poco a poco, pero mi pasión por la programación, que nació un poco después, ha seguido siendo parte de mi vida y afortunadamente he podido desarrollarme y trabajar en este sueño desde hace casi diez años",
     "aboutmystudies": "Acerca de mis estudios",
-    "aboutmystudies2": "Soy Ingeniero Industrial de la Universidad del Norte (Estudiante distinguido PGA 4.21/5) donde además durante mi carrera pude cursar varias materias de Ingeniería de Sistemas como Algoritmia 1 y 2, Programación Orientada a Objetos, Estructuras de Datos y Matemáticas Discretas. Además hice una maestría en Ingeniería Administrativa en el Politécnico de Milán (PGA 4,3/5), culminada en el año 2013, gracias a la cual tuve la oportunidad de conocer personas de distintas culturas y aprender un tercer idioma durante casi dos años, fuera de estos soy un estudiante autodidacta siempre enfocado en aprender nuevas cosas todos los días con un claro énfasis en la programación"
+    "aboutmystudies2": "Soy Ingeniero Industrial de la Universidad del Norte (Estudiante distinguido PGA 4.21/5) donde además durante mi carrera pude cursar varias materias de Ingeniería de Sistemas como Algoritmia 1 y 2, Programación Orientada a Objetos, Estructuras de Datos y Matemáticas Discretas. Además hice una maestría en Ingeniería Administrativa en el Politécnico de Milán (PGA 4,3/5), culminada en el año 2013, gracias a la cual tuve la oportunidad de conocer personas de distintas culturas y aprender un tercer idioma durante casi dos años, fuera de estos soy un estudiante autodidacta siempre enfocado en aprender nuevas cosas todos los días con un claro énfasis en la programación",
+    "whatsappmessage": "Hola Cristian, acabo de ver tu portafolio y me gustaría hablar contigo..."
   }
 }

@@ -39,7 +39,7 @@
 
 .aboutmeprogramminginner__images {
   position: relative;
-  width: 38%;
+  width: 40%;
   height: fit-content;
   height: 370px;
   overflow: hidden;
@@ -63,7 +63,7 @@
   left: 0;
   width: 40%;
   z-index: 5;
-  object-fit: none;
+  object-fit: cover;
   border-top-right-radius: 40px;
   border-bottom-right-radius: 40px;
 }
@@ -109,6 +109,11 @@
 .aboutmestudyingbottom p {
   text-align: justify;
   padding-left: 80px;
+}
+
+.infinitesliderinner {
+  border-top-right-radius: 40px;
+  overflow: hidden;
 }
 
 @media only screen and (max-width: 700px) {
@@ -171,9 +176,6 @@
     margin-left: 0px;
   }
 
-  .aboutmeprogramminginner__images {
-    width: 80%;
-  }
   .aboutmeprogramminginner__img {
     top: 0;
     width: 90%;
@@ -182,5 +184,20 @@
   }
   .aboutmestudyingbottom {
     flex-direction: column-reverse;
+  }
+  .aboutmeprogramminginner__images {
+    width: 85%;
+    border-radius: 0px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .aboutmeprogramminginner__images {
+    width: 88%;
+    height: 300px;
+  }
+  .aboutmeprogramminginner__img {
+    height: 290px;
+    object-fit: cover;
   }
 }

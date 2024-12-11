@@ -3,7 +3,7 @@
     "home": "Home",
     "aboutme": "About me",
     "projects": "Projects",
-    "emailme": "Email me",
+    "emailme": "Contact me",
     "welcome": "Welcome",
     "welcomemessage": "Welcome to my portfolio, I hope this could be a space where you can take a look at my skills as a developer and get to know me a litlle more... enjoy your stay!",
     "welcomebutton": "Do you like what you see? Email me",
@@ -35,6 +35,7 @@
     "aboutmeprogramming": "Cristian as a developer",
     "aboutmeprogramming2": "From a very young age, thanks to my parents gifting me a Nintendo Family Computer when I was six, I developed a strong connection with video games, a passion that still accompanies me to this day. Because of this, early in my life, I decided that I needed to have some kind of relationship with the tech industry in order to live out my passion for the virtual world in one way or another. This dream I had nearly 30 years ago has gradually evolved, but my passion for programming, which emerged a little later, has remained a constant part of my career. Fortunately, I’ve been able to grow and work on this dream for almost ten years.",
     "aboutmystudies": "About my studies",
-    "aboutmystudies2": "I am an Industrial Engineer from Universidad del Norte (Distinguished Student, GPA 4.21/5), institution where I also had the opportunity to take several Systems Engineering courses during my studies, such as Algorithmics 1 and 2, Object-Oriented Programming, Data Structures, and Discrete Mathematics. Additionally, I completed a Master's in Management Engineering at Politecnico di Milano (GPA 4.3/5) in 2013. This experience allowed me to meet people from diverse cultures and learn a third language during almost two years. Beyond this, I am a self-taught learner, always focused on acquiring new knowledge every day, with a clear emphasis on programming."
+    "aboutmystudies2": "I am an Industrial Engineer from Universidad del Norte (Distinguished Student, GPA 4.21/5), institution where I also had the opportunity to take several Systems Engineering courses during my studies, such as Algorithmics 1 and 2, Object-Oriented Programming, Data Structures, and Discrete Mathematics. Additionally, I completed a Master's in Management Engineering at Politecnico di Milano (GPA 4.3/5) in 2013. This experience allowed me to meet people from diverse cultures and learn a third language during almost two years. Beyond this, I am a self-taught learner, always focused on acquiring new knowledge every day, with a clear emphasis on programming.",
+    "whatsappmessage": "Hey there Cristian, I just saw your portfolio and I would like to have a talk with you..."
   }
 }
